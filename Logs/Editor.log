@@ -1,0 +1,114 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-NK 2316" at "2026-07-03T02:56:15.3165554Z"
+Built from '6000.5/staging' branch; Version is '6000.5.2f1 (eb73d3b415a1) revision 15430611'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 15721 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-07-03T02:56:15Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Unity.exe
+-createproject
+D:\Tankun\flappybird
+-cloneFromTemplate
+C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Data\Resources\PackageManager\ProjectTemplates\com.unity.template.3d-cross-platform-17.0.14.tgz
+-cloudOrganization
+18968458069095
+-cloudProject
+9e5299c4-6ecc-43f4-853a-1c51f5fa2191
+-cloudEnvironment
+production
+-useHub
+-hubIPC
+-hubSessionId
+d48cf51c-6b0a-4476-99ad-615c87a6a069
+-accessToken
+o9rDSl-5NIWvrGXQRo-AA836o6Mc-Tera2lN2yJM7T0011f
+D:/Tankun/flappybird
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [17720]  Target information:
+
+Player connection [17720]  * "[IP] 10.0.15.21 [Port] 55504 [Flags] 2 [Guid] 2030523020 [EditorId] 2030523020 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OCJP9LU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [17720]  * "[IP] 192.168.80.1 [Port] 55504 [Flags] 2 [Guid] 2030523020 [EditorId] 2030523020 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OCJP9LU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [17720]  * "[IP] 192.168.32.1 [Port] 55504 [Flags] 2 [Guid] 2030523020 [EditorId] 2030523020 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OCJP9LU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [17720]  * "[IP] 10.30.4.147 [Port] 55504 [Flags] 2 [Guid] 2030523020 [EditorId] 2030523020 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OCJP9LU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Unable to join player connection multicast group (err: 10013).
+Player connection [17720] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-NK 2316"
+[Licensing::IpcConnector] LicenseClient-NK 2316 channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-NK 2316-6000.5.2 doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 14148)
+Starting IPC server.
+Waiting for clients to connect on \\.\pipe\Unity-LicenseClient-NK 2316-6000.5.2, press Ctrl-C to exit.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-NK 2316-6000.5.2" at "2026-07-03T02:56:31.6115867Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 14148, path: "C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              e192c64721bd4685978af4e62ae78b65
+  Correlation Id:          90ac3afb216701e71d3045c055622526
+  External correlation Id: 8981599578928030329
+  Machine Id:              YiNHFMUyLb803feo3Dv+vjRvxlw=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-NK 2316-6000.5.2" (connect: 9.84s, validation: 3.34s, handshake: 0.06s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-NK 2316-6000.5.2-notifications" at "2026-07-03T02:56:35.0121736Z"
+[Licensing::Module] Connected to LicensingClient (PId: 14148, launch time: 0.01, total connection time: 13.24s)
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token o9rDSl-5NI...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968457909261-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.30
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 20.41s
+[Package Manager] Connected to IPC stream "Upm-17748" after 0.0 seconds.
+[Package Manager] Failed to start Unity Package Manager: operation cancelled.
+Exiting without the bug reporter. Application will terminate with return code 1Shut down.
